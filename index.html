@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AJAX</title>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/bootstrap-theme.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">
+				AJAX
+			</a>
+		</div>
+
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="/home">Home</a>
+				</li>
+				<li>
+					<a href="/about">About</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container" id="main">
+	<div class="row">
+		<div class="col-md-12" id="content">
+
+		</div>
+	</div>
+</div>
+
+<script>
+	$(function() {
+
+		var $navigationLinks = $('.collapse.navbar-collapse a');
+
+		$navigationLinks.on('click', function(e) {
+			var $link = $(this);
+			e.preventDefault();
+
+			var page = $link.attr('href').replace('/', '');
+
+			$.ajax({
+				url: 'pages/'+ page + '.html',
+				method: "GET",
+				success:function(html) {
+					$('#content').html(html);
+
+					$navigationLinks.parents('li').removeClass('active');
+					$link.parents('li').addClass('active');
+				},
+				error: function() {
+					alert("Page can't be loaded :(");
+				}
+			});
+		});
+
+		$('.collapse.navbar-collapse .active a').trigger('click');
+
+		$(document).on('click', '#loadUsersBtn', function() {
+			var $btn = $(this);
+			$btn.text('Loading...');
+
+			setTimeout(function() {
+				$.ajax({
+					url: 'api/users.json',
+					method: "GET",
+					success:function(users) {
+						var $list = $('<ul class="usersList">');
+
+						users.forEach(function(user) {
+							$list.append("<li>" + user.id + ": " + user.firstName + " " + user.lastName + " ("+user.username+")" + "</li>");
+						});
+
+						$btn.after($list);
+						$btn.hide();
+					},
+					error: function() {
+						alert("Something wrong happened :(");
+					}
+				});
+			}, 1000)
+		});
+	});
+</script>
+</body>
+</html>
