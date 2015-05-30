@@ -1,0 +1,48 @@
+{
+  "status": "ok",
+  "status_code": 200,
+  "payload": [{
+	"id": 3,
+	"user_id": 3,
+	"title": "Test task",
+	"description": "\u003cp\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\u003c/p\u003e",
+	"award": 5.0,
+	"award_count": 1,
+	"award_available": 1,
+	"rating": 0,
+	"status": "active",
+	"tag_list": [],
+	"count_responses": 0,
+	"updated_at": "2015-04-19T12:11:56.146-03:00",
+	"created_at": "2015-04-19T12:11:56.146-03:00",
+	"liked": null,
+	"favorite": null,
+	"_type": "escrow",
+	"user": {
+	  "id": 3,
+	  "email": "test@test.com",
+	  "first_name": "Lv",
+	  "last_name": "Sar",
+	  "image": {
+		"original": "https://bitescrow.s3.amazonaws.com/uploads/user/image/3/search.jpg",
+		"thumb": "https://bitescrow.s3.amazonaws.com/uploads/user/image/3/thumb_search.jpg"
+	  },
+	  "online": false,
+	  "is_following": false,
+	  "is_follower": false,
+	  "doge_address": "DKrE4yUp463PJo1A4VpfuzV9xyqpW6MojW",
+	  "private_channel": null,
+	  "created_at": "2015-04-17T01:35:45.417-03:00",
+	  "last_login_at": "2015-04-17T08:18:55.169-03:00",
+	  "last_request_at": "2015-04-19T12:22:20.634-03:00",
+	  "total": {
+		"followers": 1,
+		"followings": 0
+	  },
+	  "_type": "user",
+	  "location": null
+	},
+	"locations": [],
+	"escrow_redactions": []
+  }]
+}

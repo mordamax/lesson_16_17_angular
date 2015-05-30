@@ -1,32 +1,118 @@
-[
-	{
-	  "id": 1,
-	  "username": "user1",
-	  "firstName": "User",
-	  "lastName": "One"
+{
+  "payload": [{
+	"id": 1,
+	"email": "andrew@webbroi.com",
+	"first_name": "Andrew",
+	"last_name": "Emelianenko",
+	"image": {
+	  "original": "/assets/users/no-avatar-5a06a5f7a23a38a58e688fa92b8714a3.png",
+	  "thumb": "/assets/users/no-avatar-5a06a5f7a23a38a58e688fa92b8714a3.png"
 	},
-	{
-	  "id": 2,
-	  "username": "user2",
-	  "firstName": "User",
-	  "lastName": "Two"
+	"online": false,
+	"is_following": false,
+	"is_follower": false,
+	"doge_address": "DMU9nGyXGPhoxh6S4USopAGYnpQVa2oTZh",
+	"private_channel": null,
+	"created_at": "2015-04-01T18:17:53.519-03:00",
+	"last_login_at": "2015-04-17T08:53:14.309-03:00",
+	"last_request_at": "2015-04-19T12:21:14.483-03:00",
+	"total": {
+	  "followers": 1,
+	  "followings": 0
 	},
-	{
-	  "id": 3,
-	  "username": "user3",
-	  "firstName": "User",
-	  "lastName": "Three"
+	"_type": "user",
+	"location": null
+  }, {
+	"id": 4,
+	"email": "mcwessst@gmail.com",
+	"first_name": "Andrew",
+	"last_name": "Emelianenko",
+	"image": {
+	  "original": "https://bitescrow.s3.amazonaws.com/uploads/user/image/4/1463987_667595009938242_1692280007_n.jpg",
+	  "thumb": "https://bitescrow.s3.amazonaws.com/uploads/user/image/4/thumb_1463987_667595009938242_1692280007_n.jpg"
 	},
-	{
-	  "id": 4,
-	  "username": "user4",
-	  "firstName": "User",
-	  "lastName": "Four"
+	"online": false,
+	"is_following": false,
+	"is_follower": false,
+	"doge_address": "DMFgJ5V5f46KuQwbx6KFpUJvg5g8LQaf24",
+	"private_channel": null,
+	"created_at": "2015-04-20T07:09:42.006-03:00",
+	"last_login_at": "2015-04-20T07:09:42.004-03:00",
+	"last_request_at": "2015-04-20T07:09:51.818-03:00",
+	"total": {
+	  "followers": 0,
+	  "followings": 0
 	},
-	{
-	  "id": 5,
-	  "username": "user5",
-	  "firstName": "User",
-	  "lastName": "Five"
-	}
-]
+	"_type": "user",
+	"location": null
+  }, {
+	"id": 2,
+	"email": "taylor@webbroi.com",
+	"first_name": "Taylor",
+	"last_name": "Miles",
+	"image": {
+	  "original": "/assets/users/no-avatar-5a06a5f7a23a38a58e688fa92b8714a3.png",
+	  "thumb": "/assets/users/no-avatar-5a06a5f7a23a38a58e688fa92b8714a3.png"
+	},
+	"online": false,
+	"is_following": false,
+	"is_follower": false,
+	"doge_address": "DPxUTrDX3xaXa1Nqgvi5a3Ma5KpeCtcAWM",
+	"private_channel": null,
+	"created_at": "2015-04-08T12:41:36.877-03:00",
+	"last_login_at": null,
+	"last_request_at": "2015-04-08T21:49:38.250-03:00",
+	"total": {
+	  "followers": 0,
+	  "followings": 2
+	},
+	"_type": "user",
+	"location": null
+  }, {
+	"id": 5,
+	"email": "aoegauoebgoOUba@aeinga.eu",
+	"first_name": "Oaeingaoeouae",
+	"last_name": "Oaibeoubaeg",
+	"image": {
+	  "original": "/assets/users/no-avatar-5a06a5f7a23a38a58e688fa92b8714a3.png",
+	  "thumb": "/assets/users/no-avatar-5a06a5f7a23a38a58e688fa92b8714a3.png"
+	},
+	"online": false,
+	"is_following": false,
+	"is_follower": false,
+	"doge_address": "D7YzX8oRt2GtZ7u7gk7yWa8ZC2yvwXFGe1",
+	"private_channel": null,
+	"created_at": "2015-05-23T04:27:47.329-03:00",
+	"last_login_at": null,
+	"last_request_at": "2015-05-23T04:39:58.297-03:00",
+	"total": {
+	  "followers": 0,
+	  "followings": 0
+	},
+	"_type": "user",
+	"location": null
+  }, {
+	"id": 3,
+	"email": "test@test.com",
+	"first_name": "Lv",
+	"last_name": "Sar",
+	"image": {
+	  "original": "https://bitescrow.s3.amazonaws.com/uploads/user/image/3/search.jpg",
+	  "thumb": "https://bitescrow.s3.amazonaws.com/uploads/user/image/3/thumb_search.jpg"
+	},
+	"online": false,
+	"is_following": false,
+	"is_follower": false,
+	"doge_address": "DKrE4yUp463PJo1A4VpfuzV9xyqpW6MojW",
+	"private_channel": null,
+	"created_at": "2015-04-17T01:35:45.417-03:00",
+	"last_login_at": "2015-04-17T08:18:55.169-03:00",
+	"last_request_at": "2015-04-19T12:22:20.634-03:00",
+	"total": {
+	  "followers": 1,
+	  "followings": 0
+	},
+	"_type": "user",
+	"location": null
+  }]
+}
